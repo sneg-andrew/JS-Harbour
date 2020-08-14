@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <script> 
+  'use strict'; 
+  function fibonacci(n) {
+  let a = 0;
+  let b = 1;
+  for (let i = 3; i <= n; i += 1) {
+    const c = a + b;
+    a = b;
+    b = c;
+  }
+  if (n == 1) {
+      return a;
+  }
+  return b;
+}
+let n = prompt('X=', '');
+if ( i < n) continue;
+
+        console.log(fibonacci(n)); 
+
+     </script>
+
+</body>
+</head>
+</html>
